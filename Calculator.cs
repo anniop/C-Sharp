@@ -1,6 +1,5 @@
 using System;
-using System.Text;
-using System.Threading.Tasks;
+
 
 class Calculator
 {
@@ -37,10 +36,14 @@ class Calculator
         {
             Result = num1 * num2;
         }
-        else
+        else if(Answer == "d")
         {
             Result = num1/num2;
         }
+        //else
+        //{
+        //    Console.WriteLine("Invalid Choice");
+        //}
         
         
         Console.WriteLine("The Answer is : "+Result);
