@@ -40,10 +40,11 @@ class Calculator
         {
             Result = num1/num2;
         }
-        //else
-        //{
-        //    Console.WriteLine("Invalid Choice");
-        //}
+        else
+        {
+            Console.WriteLine("Invalid Choice");
+            return;
+        }
         
         
         Console.WriteLine("The Answer is : "+Result);
