@@ -23,6 +23,8 @@ namespace Hello
         double j = i;
         float z = 'A';  // This Will Print the Ascii Value of "A" i.e 65
         Console.WriteLine(z); 
+        float varr = Convert.ToInt32 (3.55);
+        Console.WriteLine(varr);
         // Explicit Casring
         int k = (int) 45.66;
         Console.WriteLine(k);
